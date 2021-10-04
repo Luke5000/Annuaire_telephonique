@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="some_css_2.css"   type="text/css" /> 
+    </head>
+
+    <body>
+
+        <ul>
+            <li class="UnElementDuMenu"><a href="Acceuil_gestionnaire_annuaire_telephonique.html"> Acceuil </a></li>
+            <li class="UnElementDuMenu"><a href="formulaire_ajout_de_contact.html">Formulaire d'ajout d'un contact </a></li>
+            <li class="UnElementDuMenu"><a href="presentation_liste_des_contacts.php"> Présentation des contacts </a> </li>
+            <li class="UnElementDuMenu"> <a href="presentation_liste_des_contacts_ordre_alphabetique.php" > Présentation des contacts dans l'ordre alphabétique </a></li>
+            <li class="UnElementDuMenu"><a href="formulaire_suppression_d_un_contact.html"> Supprimer un contact  </a></li>
+            <li class="UnElementDuMenu"><a href="formulaire_modification_d_un_contact.html"> Modifier les coordoonées d'un contact </a></li>
+          </ul>
+
+
+        <h1> Veuillez indiquer le nom et le prénom de la personne dont vous voulez modifier les informations </h1>
+
+        <form method="POST" action="Modification_d_un_contact.php">
+            Ancien nom : <input type="text" name="AncienNom" value="nom" required /> <br />
+            Ancien prénom  : <input type="text" name="AncienPrénom"  value="prénom" required /> <br />
+            Ancien numéro de téléphone : <input type="text" name="AncienNuméroDeTéléphone" value="Numéro de téléphone" required /> <br />
+
+            <br />
+            <br />
+            <br />
+            <br />
+
+            Nouveau nom : <input type="text" name="NouveauNom" value="nom" required /> <br />
+            Nouveau prénom : <input type="text" name="NouveauPrénom" value="prénom" required /><br />
+            Nouveau numéro de téléphone : <input type="text" name="NouveauNuméroDeTéléphone" value="Numéro de téléphone" required /> <br />
+
+
+            <input type="submit" value="Valider" />
+
+
+
+
+
+
+
+
+        </form>
+
+
+
+
+
+
+    </body>
+
+
+
+
+
+
+</html>

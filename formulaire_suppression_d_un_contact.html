@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="some_css_2.css"   type="text/css" /> 
+    </head>
+
+    <body>
+
+        <ul>
+            <li class="UnElementDuMenu"><a href="Acceuil_gestionnaire_annuaire_telephonique.html"> Acceuil </a></li>
+            <li class="UnElementDuMenu"><a href="formulaire_ajout_de_contact.html">Formulaire d'ajout d'un contact </a></li>
+            <li class="UnElementDuMenu"><a href="presentation_liste_des_contacts.php"> Présentation des contacts </a> </li>
+            <li class="UnElementDuMenu"> <a href="presentation_liste_des_contacts_ordre_alphabetique.php" > Présentation des contacts dans l'ordre alphabétique </a></li>
+            <li class="UnElementDuMenu"><a href="formulaire_suppression_d_un_contact.html"> Supprimer un contact  </a></li>
+            <li class="UnElementDuMenu"><a href="formulaire_modification_d_un_contact.html"> Modifier les coordoonées d'un contact </a></li>
+          </ul>
+
+        <p> Veuillez indiquer le nom et le prénom de la personne que vous voulez supprimer de la liste des contacts </p>
+
+        <form method="POST" action="Suppression_d_un_contact.php">
+            nom : <input type="text" name="nom" value="nom" required /> <br />
+            prénom : <input type="text" name="prénom"  value="prénom" required /> <br />
+
+            <input type="submit" value="valider" />
+
+
+
+
+        </form>
+
+
+
+
+    </body>
+
+
+
+</html>
